@@ -1,0 +1,424 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+  }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 58px;
+  margin-bottom: 196px;
+}
+
+.header {
+  padding-bottom: 874px;
+  background-image: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 77.78%), linear-gradient(330.24deg, rgba(0, 0, 0, 0) 31.06%, #000000 108.93%), url(../img/bck-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-header{
+  width: 1751px;
+  margin: 0 auto;
+}
+
+.logo {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #FFFFFF;
+}
+
+.nav-links{
+  display: flex;
+  height: 25px;
+}
+
+.nav-link{
+  width: 105px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.nav-link:not(:last-child){
+  margin-right: 50px;
+}
+
+.nav-form{
+  display: flex;
+}
+
+.nav-form-search{
+  width: 14px;
+  height: 14px;
+  border: none;
+  background: none;
+  margin-right: 18px;
+}
+
+.search-text{
+  width: 54px;
+  height: 23px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 23px;
+  border: none;
+  color: #FFFFFF;
+  background: none;
+}
+
+.hero{
+  display: flex;
+}
+
+.section-discover-follow-us{
+  display: flex;
+  flex-direction: column;
+  width: 25px;
+  height: 214px;
+  margin-right: 396px;
+}
+
+.follow-us{
+  width: 82px;
+  height: 25px;
+  padding-top: 60px;
+  margin: 0;
+  margin-bottom: 22px;
+  transform: rotate(90deg);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.follow-us-link:not(:last-child){
+  margin-bottom: 25px;
+}
+
+.above-the-title{
+  margin: 0;
+  margin-bottom: 32px;
+  padding-left: 95px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #FFC178;
+  background-image: url(../img/line-above-the-title.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.h1{
+  margin: 0;
+  margin-bottom: 125px;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 100px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.b-h1{
+  font-weight: 700;
+}
+
+.scroll-down{
+  margin-left: 336px;
+  padding-right: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  background-image: url(../img/scroll-down-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  color: #FFFFFF;
+}
+
+.container{
+  margin: 0 auto;
+  width: 1461px;
+}
+
+.your-holiday{
+  background: black;
+}
+
+.your-holiday-container{
+  display: flex;
+  transform: translateY(-250px);
+}
+
+.mountains{
+  margin-right: 232px;
+  width: 598px;
+  height: 720px;
+}
+
+.above-the-title-holiday{
+  margin-bottom: 27px;
+}
+
+.h2{
+  margin: 0;
+  margin-bottom: 27px;
+  width: 555px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 87px;
+  color: #FFFFFF;
+}
+
+.sub-h2{
+  margin-bottom: 30px;
+  width: 632px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.read-more{
+  padding-right: 30px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  background-image: url(../img/arrow-your-holiday.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  color: #FBD784;
+}
+
+.bromo{
+  background: black;
+  padding-bottom: 226px;
+}
+
+.container-bromo{
+  display: flex;
+  justify-content: space-between;
+  padding: 467px 1px 41px 1px;
+  background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 109.55%), url(../img/bck-bromo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-bromo{
+  margin-bottom: auto;
+  border: none;
+  background: none;
+}
+
+.bromo-element{
+  text-align: center;
+}
+
+.above-the-title-bromo{
+  padding-right: 95px;
+  margin: 0  auto 25px;
+  width: 94px;
+  background: url(../img/line-above-the-title.svg) left no-repeat,
+              url(../img/line-above-the-title.svg) right no-repeat;
+}
+
+.h2-bromo{
+  width: 705px;
+  margin: 0  auto 27px;
+}
+
+.sub-h2-bromo{
+  width: 934px;
+  margin: 0  auto 39px;
+}
+
+.indonesian-culture{
+  background: black;
+  padding-bottom: 250px;
+}
+
+.container-indonesian-culture{
+  display: flex;
+}
+
+.indonesian-culture-information{
+  margin-right: 210px;
+}
+
+.above-the-title-indonesian{
+  margin-bottom: 27px;
+}
+
+.h2-indonesian{
+  margin-bottom: 27px;
+}
+
+.sub-h2-indonesian{
+  margin-bottom: 27px;
+}
+
+.get-started{
+  background: black;
+  padding-bottom: 57px;
+}
+
+.container-get-started{
+  display: flex;
+  padding-bottom: 47px;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.logo-get-started{
+  margin-right: 811px;
+  font-size: 48px;
+}
+
+.ready-to-explore{
+  margin: auto 0;
+  margin-right: 55px;
+  height: 29px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+.btn-get-started{
+  margin: auto 0;
+  padding: 24px 74px 23px 69px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  background: #FFA343;
+  border-radius: 8px;
+  color: #000000;
+}
+
+.footer{
+  background: black;
+}
+
+.form-links{
+  display: flex;
+  padding-bottom: 137px;
+}
+
+.form-links-base{
+  margin-right: 252px;
+}
+
+.form-email-title{
+  margin: 0;
+  margin-bottom: 50px;
+  width: 368px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  color: #FFFFFF;
+}
+
+.email{
+  display: flex;
+}
+
+.into-email{
+  margin: 0;
+  padding: 19px 220px 30px 14px;
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  background: black;
+}
+
+.btn-email{
+  padding: 28px 29px 27px 30px;
+  background: #FFA343;
+  border-radius: 8px 8px 0px 0px;
+}
+
+
+.block-links{
+  display: flex;
+  flex-direction: column;
+}
+
+.block-links:not(:last-child){
+  margin-right: 210px;
+}
+
+.title-link{
+  margin: 0;
+  margin-bottom: 45px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 0px;
+  color: #FFD1A0;
+}
+
+.link-footer{
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 0px;
+  color: #FFFFFF;
+}
+
+.link-services:not(:last-child){
+  margin-bottom: 45px;
+}
+
+.link-about:not(:last-child){
+  margin-bottom: 45px;
+}
+
+.link-help:not(:last-child){
+  margin-bottom: 45px;
+}
+
+.footer-links{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 157px;
+}
+
+.politics-links{
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.politics-links:not(:last-child){
+  margin-right: 50px;
+}
+
+.link-social{
+  text-decoration: none;
+}
+
+.link-social:not(:last-child){
+  margin-right: 55px;
+}
+
+.copyright{
+  text-align: center;
+  padding-bottom: 118px;
+}
+
+.copyright-text{
+  margin: 0;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
